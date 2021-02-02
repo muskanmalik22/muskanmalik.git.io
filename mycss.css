@@ -1,0 +1,206 @@
+body {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    margin: 0;
+    text-align: center;
+    scroll-behavior: smooth;
+  }
+  
+  .header {
+    color: black;
+    font-family: fantasy;
+    font-size: 24px;
+    margin-left: 45%;
+    margin-top: 3%;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0;
+    background-color: black;
+    border: 2px solid black;
+    top: 0;
+    width: 100%
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+    display: inline;
+  }
+  
+ li a {
+    display: block;
+    color: whitesmoke;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+    width: 100%
+  }
+  
+  li a:hover {
+    background-color: rgb(37, 37, 37);
+    color: white;
+  }
+  
+  .active {
+    background-color:  rgb(37, 37, 37);
+    color: whitesmoke;
+  }
+  
+  #main{
+    text-align: center;
+    background-color: whitesmoke;
+  }
+  
+  .ppic{
+    float: left;
+    margin-left: 10%;
+    border-radius: 5px;
+    border-style: double;
+    
+  }
+  .biodata{
+    float: right;
+    margin-right: 20%;
+    text-align: center;
+    margin-top: 7%;
+    font-size: 20;
+    
+  }
+  .me{
+    text-align: center;
+    margin-right: 10%;
+    float: right;
+    width: 500px;
+    color: grey;
+  }
+  
+  .carousel-item{
+    height: 700px;
+    background-color: #555;
+    color: white;
+    margin-top: 0%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .overlay-image {
+      position: absolute;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-position: center;
+      background-size: cover;
+     opacity: 0.85;
+  }
+  .overlay-img {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.85;
+  }
+
+  .container{
+    position: absolute;
+    text-align: center;
+    margin-top: 300px;
+  }
+  
+  .skil{
+      text-align: center;
+  }
+
+  *{box-sizing:border-box}
+
+  .cont {
+     width: 100%;
+     background-color:  rgb(148, 197, 197); 
+  }
+
+  .title {
+      color: black;
+      margin-top: 10%;
+      
+  }
+  .skills {
+      text-align: right;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      color: grey;
+      width: 800px;
+      overflow: hidden;
+      border-radius: 5px;
+      
+  }
+
+  .html {
+      width: 85%;
+      background-color: black;
+  }
+
+  .css {
+    width: 70%;
+    background-color: black;
+}
+
+.c {
+    width: 80%;
+    background-color:  black;
+}
+
+.java {
+    width: 60%;
+    background-color:  black;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 20px; 
+    box-sizing: border-box; 
+    margin-top: 0px; 
+    margin-bottom: 16px; 
+    
+    resize: vertical
+    margin-left: 50%;
+  }
+
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: rgb(37, 37, 37);
+  }
+
+  .container{
+    border-radius: 10px;
+    background-color: rgb(148, 197, 197);
+    padding: 20px;
+    float: right;
+    position: relative;
+    left: -89px;
+    top: -200px;
+  }
+
+  .contact {
+      position: absolute;
+      margin-bottom: 100px;
+  }
